@@ -49,7 +49,7 @@ const Dropdown = ({ activatorText, items = [] }) => {
             >
                 {items.map((item, index) => {
                     return <div key={index}>
-                        <a href={item.url}>item.text</a>
+                        <a href={item.url}>{item.text}</a>
                     </div>
                 })}
             </div>
